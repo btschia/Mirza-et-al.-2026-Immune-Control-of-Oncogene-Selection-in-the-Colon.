@@ -12,13 +12,17 @@ This repository contains the scripts used to simulate stochastic cell dynamics i
 
 ## Repository structure
 
-### 2D crypt simulations
+### 2D crypt simulations 
 
 **`SCB2D_time_to_monoclonality_bottom_vis_0_1.py`**
 
 Main simulation script for 2D cell dynamics and monoclonality analysis.
 
-This script imports:
+**`SCB2D_replacement_probabilities.py`**
+
+Script to count cell replacements of labeled cells versus unlabeled cell.
+
+These script imports:
 
 - **`cell_dynamics_2D.py`** – Functions implementing the two-dimensional Stochastic Conveyor Belt (SCB) model.
 - **`utils.py`** – Utility functions for simulation, data processing, and file input/output.
