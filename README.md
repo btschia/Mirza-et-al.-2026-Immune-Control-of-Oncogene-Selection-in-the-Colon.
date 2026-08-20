@@ -71,13 +71,32 @@ python SCB2D_time_to_monoclonality_bottom_vis_0_1.py \
 -c 5
 ```
 
-## Visualizing simulation results
+## Visualizing simulation results 
 
-Scripts for visualization are located in:
+The folder scb2d_analysis stores all scripts and notebooks to create the plots presented in the manuscript:
 
-- *(add filenames here)*
+python run_notebooks.py plot_simulation_results_publication.ipynb
+  - P(Monoclonal | Visible)
+  - Extinction Probability
+  - Fixation Probability
 
-These scripts generate the figures presented in the manuscript.
+python run_notebooks.py plot_influence_of_kr_publication.ipynb
+for changing mutants' kr
+  - P(Monoclonal | Visible)
+  - Extinction Probability
+  - Fixation Probability
+
+python run_notebooks.py plot_analytical_solution_publication.ipynb
+  - Analytical solution of 1D ring model compared to SCB in 2D
+
+The folder contains also precomupted simulation results in data.
+The experimental data is not available.
+
+To plot all figures at once.
+python run_notebooks.py
+
+the figures will be stored in \scb2d_analysis\figures
+
 
 ## Analytical model
 
