@@ -49,7 +49,7 @@ kr_a kd_a rep it
 | `kr_a` | Relocation rate for cell population A |
 | `kd_a` | Division rate for cell population A |
 | `rep` | Number of independent simulation repeats |
-| `it` | Number of iterations per simulation |
+| `it` | Number of iterations per simulation (= nr. of crypts labelled in parallel)|
 
 ### Optional arguments
 
@@ -65,7 +65,7 @@ kr_a kd_a rep it
 ### Example
 
 ```bash
-python SCB2D_time_to_monoclonality_bottom_vis_0_1.py 0.0625 0.25 100 100 -r 20 -c 5
+python SCB2D_time_to_monoclonality_bottom_vis_0_1.py 0.0625 0.25 100 100 -r 20 -c 5 -stat 1
 ```
 
 ## Visualizing simulation results 
