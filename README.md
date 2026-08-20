@@ -120,4 +120,4 @@ Specify the license under which this code is distributed (e.g. MIT License).
 
 [2] Azkanaz, M. et al. *Retrograde movements determine effective stem cell numbers in the intestine.* Nature **607**, 548–554 (2022).
 
-[3] Mirza, H. et al. *Immune Control of Oncogene Selection in the Colon.* Nature (2026).
+[3] Mirza, H. et al. *Immune Control of Oncogene Selection in the Colon.* Research Square preprint, https://doi.org/10.21203/rs.3.rs-8673399/v1 (2026).
