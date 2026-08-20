@@ -65,10 +65,7 @@ kr_a kd_a rep it
 ### Example
 
 ```bash
-python SCB2D_time_to_monoclonality_bottom_vis_0_1.py \
-0.0625 0.25 100 100 \
--r 20 \
--c 5
+python SCB2D_time_to_monoclonality_bottom_vis_0_1.py 0.0625 0.25 100 100 -r 20 -c 5
 ```
 
 ## Visualizing simulation results 
