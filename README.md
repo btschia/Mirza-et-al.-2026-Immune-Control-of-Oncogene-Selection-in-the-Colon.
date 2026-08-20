@@ -72,6 +72,7 @@ python SCB2D_time_to_monoclonality_bottom_vis_0_1.py \
 ```
 
 ## Visualizing simulation results 
+All code for data processing and visualization was refactored and optimized using the AI-assited tool (Claude Code).
 
 The folder scb2d_analysis stores all scripts and notebooks to create the plots presented in the manuscript:
 
@@ -98,11 +99,12 @@ python run_notebooks.py
 the figures will be stored in \scb2d_analysis\figures
 
 
-## Analytical model
+## Analytical solution
 
 The analytical solution is implemented in:
 
-- *(add filenames here)*
+- *python run_notebooks.py plot_analytical_solution_publication.ipynb*
+  Analytical solution of 1D ring model compared to SCB in 2D*
 
 ## Requirements
 
