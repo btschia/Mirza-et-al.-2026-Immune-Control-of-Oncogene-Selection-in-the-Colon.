@@ -69,56 +69,8 @@ kr_a kd_a rep it
 python SCB2D_time_to_monoclonality_bottom_vis_0_1.py 0.0625 0.25 100 100 -r 20 -c 5 -stat 1
 ```
 
-## Visualizing simulation results 
+## Visualizing simulation results and comparison to analytical solution
 All code for data processing and visualization was refactored and optimized using the AI-assited tool (Claude Code).
-
-Absolutely! Here is the **suggested text in Markdown**, ready to be pasted into your README:
-
----
-
-## Running Simulations
-
-To run the main simulation script, use the following command:
-
-```bash
-python SCB2D_time_to_monoclonality_bottom_vis_0_1.py [options] kr_a kd_a rep it
-```
-
-### Positional Arguments
-
-| Argument | Description |
-|----------|-------------|
-| `kr_a`   | Relocation rate for cell population A |
-| `kd_a`   | Division rate for cell population A   |
-| `rep`    | Number of independent simulation repeats |
-| `it`     | Number of iterations per simulation (number of crypts labelled in parallel) |
-
-### Optional Arguments
-
-| Argument | Description |
-|----------|-------------|
-| `-kr`, `--relocation` | Relocation rate for cell population B |
-| `-kd`, `--division`   | Division rate for cell population B   |
-| `-r`, `--rows`        | Number of crypt rows                  |
-| `-c`, `--cols`        | Number of crypt columns               |
-| `-stat`, `--status`   | Print repetition and iteration progress (`0` = off) |
-| `-id`, `--file_ID`    | Identifier appended to output files   |
-| `-h`, `--help`        | Show help message and exit            |
-
-### Example Usage
-
-Run a simulation with specific parameters:
-
-```bash
-python SCB2D_time_to_monoclonality_bottom_vis_0_1.py 0.0625 0.25 100 100 -r 20 -c 5 -stat 1
-```
-
-This command runs 100 repeats of 100 iterations each, with 20 rows and 5 columns in the crypt, and prints progress.
-
----
-
-## Visualizing Simulation Results
-
 All scripts and notebooks for data processing and visualization are located in the `scb2d_analysis` folder.
 
 ### To generate all figures at once:
@@ -151,19 +103,6 @@ python run_notebooks.py
 - Precomputed simulation results are available in the `data/` folder.
 - Experimental data is **not** included.
 - All generated figures will be saved in `scb2d_analysis/figures/`.
-
----
-
-## Analytical Solution
-
-The analytical solution is implemented in:
-
-- `scb2d_analysis/plot_analytical_solution_publication.ipynb`  
-  (Run with `python run_notebooks.py plot_analytical_solution_publication.ipynb`)
-
-This notebook compares the analytical solution of the 1D ring model to the 2D SCB simulation results.
-
----
 
 <!-- 
 
